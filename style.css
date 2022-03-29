@@ -1,0 +1,186 @@
+/* Color Theme Swatches in Hex */
+.p {
+  color: #d705f2;
+}
+.p {
+  color: #a904bf;
+}
+.p {
+  color: #660273;
+}
+.p {
+  color: #380140;
+}
+.p {
+  color: #220126;
+}
+/*neon palette classes */
+.theme-neon-bg-1 {
+  background-color: #d705f2;
+}
+.theme-neon-bg-2 {
+  background-color: #a904bf;
+}
+.theme-neon-bg-3 {
+  background-color: #660273;
+}
+.theme-neon-bg-4 {
+  background-color: #380140;
+}
+.theme-neon-bg-5 {
+  background-color: #220126;
+}
+/* plastic palette classes */
+.theme-plastic-bg-1 {
+  background-color: #f2f2f2;
+}
+.theme-plastic-bg-2 {
+  background-color: #d9d9d9;
+}
+.theme-plastic-bg-3 {
+  background-color: #bfbfbf;
+}
+.theme-plastic-bg-4 {
+  background-color: #737373;
+}
+.theme-plastic-bg-5 {
+  background-color: #404040;
+}
+/* Plastic_underwaterlastic waste underwater palette classes */
+.theme-Plastic-underwater-bg-1 {
+  background-color: #99bbbf;
+}
+.theme-Plastic-underwater-bg-2 {
+  background-color: #618c80;
+}
+.theme-Plastic-underwater-bg-3 {
+  background-color: #1f736a;
+}
+.theme-Plastic-underwater-bg-4 {
+  background-color: #055959;
+}
+.theme-Plastic-underwater-bg-5 {
+  background-color: #033a40;
+}
+
+/* switch classes */
+.switch {
+  /* border: 1px solid red; */
+  display: block;
+
+  border-radius: 100%;
+  box-shadow: inset 0 0 3px 0px;
+  cursor: pointer;
+}
+.switch_lr {
+  height: 100px;
+  width: 100px;
+  padding: 6px;
+}
+.switch_lr .switch__icon {
+  width: 100px;
+  height: 100px;
+}
+.switch_md {
+  height: 80px;
+  width: 80px;
+  padding: 5px;
+}
+.switch_md .switch__icon {
+  width: 80px;
+  height: 80px;
+}
+.switch_sm {
+  height: 60px;
+  width: 60px;
+  padding: 4px;
+}
+.switch_sm .switch__icon {
+  width: 60px;
+  height: 60px;
+  background-size: 60px;
+}
+
+.switch__checkbox {
+  display: none;
+}
+.switch__icon {
+  /* border: 1px solid green; */
+
+  border-radius: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 0 4px 1px;
+  background-position: center;
+}
+.switch__icon1 {
+  background-image: url(outline_power_settings_new_black_48dp.png);
+}
+.switch__icon2 {
+  background-image: url(outline_electrical_services_black_48dp.png);
+}
+.switch__icon3 {
+  background-image: url(outline_power_off_black_48dp.png);
+}
+/* switch state modifier */
+.switch_disabled .switch__icon {
+  background-color: #99bbbf;
+  box-shadow: 0 0 4px 1px black;
+}
+
+/* componente theme plastic underwater */
+.switch_theme_plastic_underwater {
+  box-shadow: inset 0 0 3px 0 black;
+}
+
+.switch_disabled.switch_theme_plastic_underwater .switch__icon {
+  background-color: #99bbbf;
+  box-shadow: 0 0 4px 1px black;
+}
+
+.switch_theme_plastic_underwater .switch__icon {
+  background-color: #1f736a;
+  box-shadow: 0 0 4px 1px black;
+}
+.switch_theme_plastic_underwater .switch__checkbox:checked + .switch__icon {
+  background-color: #f2f2f2;
+  box-shadow: 0 0 4px 1px #1f736a;
+  border-radius: 15%;
+}
+
+/* componente theme plastic */
+.switch_theme_plastic {
+  box-shadow: inset 0 0 3px 0 black;
+}
+
+.switch_disabled.switch_theme_plastic .switch__icon {
+  background-color: #bfbfbf;
+  box-shadow: 0 0 4px 1px black;
+}
+
+.switch_theme_plastic .switch__icon {
+  background-color: #bfbfbf;
+  box-shadow: 0 0 4px 1px black;
+}
+.switch_theme_plastic .switch__checkbox:checked + .switch__icon {
+  background-color: #f2f2f2;
+  box-shadow: 0 0 4px 1px #bfbfbf;
+  border-radius: 10%;
+}
+
+/* componente theme neon */
+.switch_theme_neon {
+  box-shadow: inset 0 0 3px 0 black;
+}
+.switch_disabled.switch_theme_neon .switch__icon {
+  background-color: #660273;
+  box-shadow: 0 0 4px 1px black;
+}
+.switch_theme_neon .switch__icon {
+  background-color: #660273;
+  box-shadow: 0 0 4px 1px black;
+}
+.switch_theme_neon .switch__checkbox:checked + .switch__icon {
+  background-color: #d705f2;
+  box-shadow: 0 0 4px 1px #660273;
+  border-radius: 5%;
+}
